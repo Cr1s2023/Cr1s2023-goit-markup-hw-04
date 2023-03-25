@@ -98,16 +98,20 @@ html {
   list-style: none;
   margin: 0 0 0 auto;
   gap: 10px;
+  align-items: center;
 }
 
-.icon {
+.icon,
+.icon-contact {
   fill: #afb1b8;
 }
 
 .icon:hover {
   fill: #ffffff;
 }
-
+.icon-contact:hover {
+  fill: #2196f3;
+}
 .link:hover,
 .link:focus,
 .contact-list-item:hover,
@@ -117,18 +121,17 @@ html {
 }
 /*solution section*/
 .solutions-section {
-  height: 600px;
-  left: 0px;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 600px;
   background-repeat: no-repeat;
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url("../images/lmg.jpg") no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-  background-attachment: scroll;
+    url("../images/Solutii.jpg");
+  background-size: cover;
+  background-position: center;
+  width: auto;
 }
 
 .title-section {
@@ -187,9 +190,14 @@ html {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
+  border: 1px solid #f5f4fa;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+}
+
+.card-qualities-list:hover {
+  border-color: #2196f3;
 }
 .qualities-icons-list {
   display: flex;
@@ -346,8 +354,8 @@ html {
   border-color: #2196f3;
 }
 
-.company {
-  fill: #2196f3;
+.company:hover {
+  stroke: #2196f3;
 }
 /*buttons section*/
 .buttons-section {
