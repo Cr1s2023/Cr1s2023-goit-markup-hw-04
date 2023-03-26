@@ -21,6 +21,7 @@ html {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .container2 {
@@ -359,7 +360,7 @@ html {
 .buttons-section {
   display: flex;
   align-items: center;
-  padding-left: 542px;
+  justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -369,6 +370,7 @@ html {
   top: 174px;
   border-radius: 4px;
   gap: 8px;
+  justify-content: center;
 }
 
 .button-item {
@@ -387,6 +389,9 @@ html {
   padding: 6px 22px;
   background: #f5f4fa;
   border-color: #f5f4fa;
+  border-radius: 4px;
+  height: 38px;
+  align-items: center;
 }
 /*cards section*/
 .card-images {
