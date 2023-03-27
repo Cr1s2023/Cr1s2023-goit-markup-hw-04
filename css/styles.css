@@ -347,15 +347,16 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #afb1b8;
 }
 
-.company-icon:hover {
+.company-icon:hover,
+.company-icon:focus {
   border-color: #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
 }
 
-.company:hover {
-  stroke: #2196f3;
-}
 /*buttons section*/
 .buttons-section {
   display: flex;
